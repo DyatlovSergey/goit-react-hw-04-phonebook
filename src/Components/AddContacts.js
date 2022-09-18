@@ -1,26 +1,4 @@
-// import { Component } from "react";
 import s from "./Phonebook.module.css";
-
-// class AddContacts extends Component {
-//   state = {
-//     name: "",
-//     number: "",
-//   };
-
-//   handleSubmit = (e) => {
-//     e.preventDefault();
-//     console.log(this.state);
-//     this.props.onSubmit(this.state.name, this.state.number);
-//     this.setState({ name: "", number: "" });
-//   };
-
-//   handleChangeName = (e) => {
-//     this.setState({ name: e.currentTarget.value });
-//   };
-//   handleChangeNumber = (e) => {
-//     this.setState({ number: e.currentTarget.value });
-//   };
-
 import { useState } from "react";
 
 const AddContacts = ({ onAddContactCard }) => {

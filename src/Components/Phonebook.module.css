@@ -49,8 +49,6 @@ body {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* FILTER STYLES */
-
 .filter {
   display: flex;
   flex-direction: column;
@@ -68,8 +66,6 @@ body {
   margin-bottom: 40px;
 }
 
-/* CONTACT LIST STYLES */
-
 .contact__item {
   display: flex;
   justify-content: space-between;
@@ -78,7 +74,6 @@ body {
 .contact__description {
   margin: 10px;
 }
-
 
 .contact__name {
   margin-right: 10px;
